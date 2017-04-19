@@ -189,3 +189,6 @@ latex/ods.bbl
 latex/ods.blg
 latex/ods.out
 latex/images/bigoh.tex
+
+# Index Checker case study files
+check-index-output*.txt
