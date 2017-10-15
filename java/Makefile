@@ -17,4 +17,4 @@ clean :
 	rm -f ods.jar ods/*.class
 
 check-index:
-	${CHECKERFRAMEWORK}/checker/bin/javac ${sources} -processor index -AprintErrorStack
+	${CHECKERFRAMEWORK}/checker/bin/javac ${sources} -processor index -AprintErrorStack -Xmaxerrs 10000 -Xmaxwarns 10000
